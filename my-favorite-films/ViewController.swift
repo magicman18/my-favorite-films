@@ -12,7 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //creates the image logo and makes it the title view of the navigation controller
+        let logo = UIImage(named: "logo.png")
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 28, height: 28))
+        imageView.image = logo
+        imageView.contentMode = .ScaleAspectFit
+        navigationItem.titleView = imageView
+        self.navigationItem.titleView = UIImageView(image: logo)
     }
 
     override func didReceiveMemoryWarning() {
