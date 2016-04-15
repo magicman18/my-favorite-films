@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         
         //creates the image logo and makes it the title view of the navigation controller
         let logo = UIImage(named: "logo.png")
-        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 28, height: 28))
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 125, height: 28))
         imageView.image = logo
         imageView.contentMode = .ScaleAspectFit
         navigationItem.titleView = imageView
