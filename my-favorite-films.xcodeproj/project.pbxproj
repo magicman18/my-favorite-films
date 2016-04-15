@@ -37,6 +37,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		980521C41CC1830A00C3DD4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		980521C51CC1831200C3DD4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		980521C61CC1858400C3DD4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		9824F38C1CB9E64A00745929 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +77,9 @@
 		9824F3971CB9E64A00745929 /* my-favorite-films */ = {
 			isa = PBXGroup;
 			children = (
+				980521C61CC1858400C3DD4D /* Controller */,
+				980521C51CC1831200C3DD4D /* View */,
+				980521C41CC1830A00C3DD4D /* Model */,
 				9824F3981CB9E64A00745929 /* AppDelegate.swift */,
 				9824F39A1CB9E64A00745929 /* ViewController.swift */,
 				9824F39C1CB9E64A00745929 /* Main.storyboard */,
@@ -292,6 +316,7 @@
 				9824F3AC1CB9E64A00745929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
